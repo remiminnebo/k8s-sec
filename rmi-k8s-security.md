@@ -1,20 +1,18 @@
+
+
+
 # General Security Principles
 
-##Layers & Redundancy
+## Layers & Redundancy
 
-##Least Privilege (pod perspective)
+## Least Privilege (pod perspective)
 
-##Attack Surface
+## Attack Surface
 
 ## Vulnerability Scanning
 
 
 # Security Categories
-
-## Host OS Security
-### Runtime Security
-### Malicious process identification
-### IAM / SSH Access
 
 ## Cluster Security
 ### Apiserver
@@ -31,6 +29,20 @@
 #### Node Restrictions
 #### Open Policy Agent
 
+## Host OS Security
+
+### Malicious process identification
+### IAM / SSH Access
+
+## Runtime Security
+
+## Network Security
+
+## Threat Detection
+
+## Build Hygiene
+
+## Image Hygiene
 
 
 ### Audit Logging
