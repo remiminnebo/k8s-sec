@@ -31,7 +31,7 @@ This will mitigate against:
 
 | Mitre ATT&CK Technique | ID |
 |------------------------|----|
-| Privilege Escalation   | A0004  |
+| Privilege Escalation   | TA0004  |
 
 
 
@@ -46,6 +46,27 @@ metadata:
 spec:
   securityContext:
     readOnlyRootFilesystem: true
+```
+
+
+This will mitigate against:
+
+| Mitre ATT&CK Technique | ID |
+|------------------------|----|
+| Privilege Escalation   | TA0004  |
+
+
+#### No new Privilege Escalations
+Privilege escalation (such as via set-user-ID or set-group-ID file mode) should not be allowed from the pod's perspective.
+
+```
+apiVersion: v1
+kind: Pod
+metadata:
+  name: security-context-demo
+spec:
+  securityContext:
+    allowPrivilegeEscalation: false
 ```
 
 
