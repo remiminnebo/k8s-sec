@@ -34,7 +34,12 @@
 
 
 
-# K8S Security 
+# Cloud Native Security 
+
+Disclaimer:
+This document details how to securely run workloads in cloud native enviroments, the scope is Kubernetes v1.20 and touches master components as well as node components. Only open-source technology is referenced.
+
+### Defense in depth
 
 
 # General Security Principles
@@ -162,9 +167,10 @@ spec:
 ## Image Hygiene
 
 
-### Audit Logging
 
+## Audit Logging
 
+# Service Mesh
 
 # Best practices & Compliancy
 
