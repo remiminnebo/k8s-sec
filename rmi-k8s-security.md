@@ -1,4 +1,4 @@
-- [K8S Security](#k8s-security)
+- [Cloud Native Security](#cloud-native-security)
 - [General Security Principles](#general-security-principles)
   * [Container Security](#container-security)
   * [Pod Security](#pod-security)
@@ -36,7 +36,6 @@
 
 # Cloud Native Security 
 
-Disclaimer:
 This document details how to securely run workloads in cloud native enviroments, the scope is Kubernetes v1.20 and touches master components as well as node components. Only open-source technology is referenced.
 
 ### Defense in depth
