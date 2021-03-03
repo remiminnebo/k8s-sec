@@ -1,6 +1,5 @@
 ---
 Document: k8s-sec
-Authors: [Remi Minnebo, Thomas Defise]
 Date: 2021-03-01
 version: 0.1
 Classification: Public
