@@ -1,37 +1,10 @@
-- [Cloud Native Security](#cloud-native-security)
-- [General Security Principles](#general-security-principles)
-  * [Container Security](#container-security)
-  * [Pod Security](#pod-security)
-    + [SecurityContext](#securitycontext)
-      - [Run as non-root](#run-as-non-root)
-      - [Read only root filesystem](#read-only-root-filesystem)
-      - [No new Privilege Escalations](#no-new-privilege-escalations)
-      - [Seccomp](#seccomp)
-  * [Cluster Security](#cluster-security)
-    + [Apiserver](#apiserver)
-    + [Kubelet](#kubelet)
-    + [Kubeproxy](#kubeproxy)
-  * [ETCD Security](#etcd-security)
-      - [State](#state)
-      - [Roles and bindings](#roles-and-bindings)
-      - [Secrets](#secrets)
-      - [Certificates](#certificates)
-    + [AdmissionControllers](#admissioncontrollers)
-      - [Node Restrictions](#node-restrictions)
-      - [Open Policy Agent](#open-policy-agent)
-  * [Host OS Security](#host-os-security)
-    + [Malicious process identification](#malicious-process-identification)
-    + [IAM / SSH Access](#iam---ssh-access)
-  * [Runtime Security](#runtime-security)
-  * [Network Security](#network-security)
-  * [Threat Detection](#threat-detection)
-  * [Build Hygiene](#build-hygiene)
-  * [Image Hygiene](#image-hygiene)
-    + [Audit Logging](#audit-logging)
-- [Best practices & Compliancy](#best-practices---compliancy)
-  * [CIS Benchmarks](#cis-benchmarks)
-
-
+---
+Document: k8s-sec
+Author: [Remi Minnebo, Thomas Defise]
+Date: 2021-03-01
+version: 0.1
+Classification: Public
+---
 
 
 # Cloud Native Security 
